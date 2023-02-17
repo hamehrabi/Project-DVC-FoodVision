@@ -4,6 +4,7 @@ dvc
 pandas
 numpy
 PyYAML
+Tensorflow==2.8.0
 
 ### local packages -
 # -e . # << uncomment this to install from setup.py
