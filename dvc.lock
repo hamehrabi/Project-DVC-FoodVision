@@ -1,0 +1,419 @@
+schema: '2.0'
+stages:
+  get_data:
+    cmd: python src/stage_01_get_data.py --config=configs/config.yaml
+    deps:
+    - path: configs/config.yaml
+      md5: f8d466234d283e4718b080b178b7f3dc
+      size: 6885
+    - path: src/stage_01_get_data.py
+      md5: c7fb11752549f7930141cc18a7f1a6d0
+      size: 1522
+    - path: src/utils/common.py
+      md5: 154a0d93a4a3eb93f2b4b9c11f646442
+      size: 2013
+    outs:
+    - path: data/apple_pie
+      md5: 4b1b255269ffbf196eb33922e7b549eb.dir
+      size: 15485835
+      nfiles: 325
+    - path: data/baby_back_ribs
+      md5: b69ec9353c3944c8c55d15ff7ba6e055.dir
+      size: 18536403
+      nfiles: 325
+    - path: data/baklava
+      md5: 9b3601fd030ff525bfb8490034a37de7.dir
+      size: 15614307
+      nfiles: 325
+    - path: data/beef_carpaccio
+      md5: 7e5c065b125ffa85735c42584c6cbd8a.dir
+      size: 18169299
+      nfiles: 325
+    - path: data/beef_tartare
+      md5: 8e24b755980e13f9b347676814d25895.dir
+      size: 16651855
+      nfiles: 325
+    - path: data/beet_salad
+      md5: 7a557747238b040586c35e0a2fb9a382.dir
+      size: 16717844
+      nfiles: 325
+    - path: data/beignets
+      md5: ea11de79faa8e0e478104d6136f5e777.dir
+      size: 17473142
+      nfiles: 325
+    - path: data/bibimbap
+      md5: 57b287718475b0e269f0ab125fe40615.dir
+      size: 18514548
+      nfiles: 325
+    - path: data/bread_pudding
+      md5: aadf0ece13eb947aba930c73af5453ec.dir
+      size: 15134150
+      nfiles: 325
+    - path: data/breakfast_burrito
+      md5: dc7e6bcdd7fb38376b2d8ef91a527e74.dir
+      size: 15656730
+      nfiles: 325
+    - path: data/bruschetta
+      md5: 73fc9d5dbea34342503d9c10cdbdc7fa.dir
+      size: 17079088
+      nfiles: 325
+    - path: data/caesar_salad
+      md5: a2663a7ab08713ce1e41efc45870b610.dir
+      size: 18468296
+      nfiles: 325
+    - path: data/cannoli
+      md5: 6888ac537969add582ca27367135e04f.dir
+      size: 16363206
+      nfiles: 325
+    - path: data/caprese_salad
+      md5: 9525ab4a25bf7bf46170ea940488e974.dir
+      size: 16710076
+      nfiles: 325
+    - path: data/carrot_cake
+      md5: 5336aca256792fcf481e965afcc7eebb.dir
+      size: 15197820
+      nfiles: 325
+    - path: data/ceviche
+      md5: 9f79ca9928a2c9ff599f599c882c1237.dir
+      size: 16575507
+      nfiles: 325
+    - path: data/cheese_plate
+      md5: 588ad3d0277c69336437aece5d446c4c.dir
+      size: 15265658
+      nfiles: 325
+    - path: data/cheesecake
+      md5: b44351c53fb4c401d5cf7f5267210eeb.dir
+      size: 13771457
+      nfiles: 325
+    - path: data/chicken_curry
+      md5: 40fe650019396c885e9b8ba8ab5b3e98.dir
+      size: 17059678
+      nfiles: 325
+    - path: data/chicken_quesadilla
+      md5: b9f8b04e7acb0654cc429f514084ebbc.dir
+      size: 16652062
+      nfiles: 325
+    - path: data/chicken_wings
+      md5: 77e5ac3f9a7ad2416dbfc652c72e301b.dir
+      size: 17560799
+      nfiles: 325
+    - path: data/chocolate_cake
+      md5: e50c749388a547305157dc69dc5905d7.dir
+      size: 16321734
+      nfiles: 325
+    - path: data/chocolate_mousse
+      md5: 84ef4353e36bc45a1082abf8e3a34995.dir
+      size: 15117062
+      nfiles: 325
+    - path: data/churros
+      md5: 7cb17e5c64b01154377cbdb38c640226.dir
+      size: 16101803
+      nfiles: 325
+    - path: data/clam_chowder
+      md5: 6fa132560ebc7c6683766bf28fb3e294.dir
+      size: 13708848
+      nfiles: 325
+    - path: data/club_sandwich
+      md5: 5f5ab4a1ae3b65f4673458d86a88fca1.dir
+      size: 17459218
+      nfiles: 325
+    - path: data/crab_cakes
+      md5: e52c22c621aa65ff23bb34b1f6d2cd57.dir
+      size: 15746445
+      nfiles: 325
+    - path: data/creme_brulee
+      md5: f1fc9aa39141f04b4478b0f4c60e6f58.dir
+      size: 15435193
+      nfiles: 325
+    - path: data/croque_madame
+      md5: dda04cfe067cd4652c0253499bb0ceb2.dir
+      size: 15855862
+      nfiles: 325
+    - path: data/cup_cakes
+      md5: 8ed8eca6cde8d3405b47db2424e816ed.dir
+      size: 15580160
+      nfiles: 325
+    - path: data/deviled_eggs
+      md5: 48e81d568dc9ba168e1fa6904bf13146.dir
+      size: 15363282
+      nfiles: 325
+    - path: data/donuts
+      md5: f1634203fd855215de9545887b908106.dir
+      size: 16824009
+      nfiles: 325
+    - path: data/dumplings
+      md5: faa193b6ae0452f514358b1a98d09205.dir
+      size: 14819564
+      nfiles: 325
+    - path: data/edamame
+      md5: 4ea1238bfa3d58a8cd468b51ecaebab0.dir
+      size: 16175121
+      nfiles: 325
+    - path: data/eggs_benedict
+      md5: 384c454815567f24cc11ef29f56b93ba.dir
+      size: 14870960
+      nfiles: 325
+    - path: data/escargots
+      md5: db59d17f6ac5fd40b610e338fd947090.dir
+      size: 18097424
+      nfiles: 325
+    - path: data/falafel
+      md5: 7e5cdc7042fe45f813acc502cf69e06c.dir
+      size: 16866094
+      nfiles: 325
+    - path: data/filet_mignon
+      md5: 9b7869a502c42bc0dd3f598d6cf6aede.dir
+      size: 15407939
+      nfiles: 325
+    - path: data/fish_and_chips
+      md5: 4abaf19b456b56b1e5b4a07fe9e6fdc6.dir
+      size: 16701702
+      nfiles: 325
+    - path: data/foie_gras
+      md5: a5dbac06fdc93d3811407f2d95af2616.dir
+      size: 15648575
+      nfiles: 325
+    - path: data/french_fries
+      md5: 0a6e9b5ad8e4170323e171c32f292b58.dir
+      size: 15677313
+      nfiles: 325
+    - path: data/french_onion_soup
+      md5: bf168782d2329a1bc2f0171ce6c979b6.dir
+      size: 16216873
+      nfiles: 325
+    - path: data/french_toast
+      md5: e2453b8902638670e1b0a6226172dc61.dir
+      size: 17960364
+      nfiles: 325
+    - path: data/fried_calamari
+      md5: 6816da482cf9910e343e80f1a2333c72.dir
+      size: 17084016
+      nfiles: 325
+    - path: data/fried_rice
+      md5: 59a79572fd1b677d2c5382132602e3f0.dir
+      size: 17375325
+      nfiles: 325
+    - path: data/frozen_yogurt
+      md5: 6f3194c5891f89bb6d47e99ee1cfbe7f.dir
+      size: 13564482
+      nfiles: 325
+    - path: data/garlic_bread
+      md5: b7328c14fe7459263fac1cf6f3a715e3.dir
+      size: 17122741
+      nfiles: 325
+    - path: data/gnocchi
+      md5: 727afe7c38268e19f0ffae69aa1f6d98.dir
+      size: 15791016
+      nfiles: 325
+    - path: data/greek_salad
+      md5: 48e27eaca5416628f1e987e7a9480e5c.dir
+      size: 18159251
+      nfiles: 325
+    - path: data/grilled_cheese_sandwich
+      md5: a102739030156a5bb66d6af504b50ff1.dir
+      size: 17108139
+      nfiles: 325
+    - path: data/grilled_salmon
+      md5: 5bda5ba14133c69712b0059a2ee64210.dir
+      size: 16928949
+      nfiles: 325
+    - path: data/guacamole
+      md5: 578dbcb57b7ba333918a1b3290e77495.dir
+      size: 17238027
+      nfiles: 325
+    - path: data/gyoza
+      md5: ccd70ee56575801673b35ac98672f5ae.dir
+      size: 16560794
+      nfiles: 325
+    - path: data/hamburger
+      md5: 4d1bdacc452c5b6fb09c4ec22710cfa3.dir
+      size: 16623761
+      nfiles: 325
+    - path: data/hot_and_sour_soup
+      md5: 8540040c4ffd9fd1b1c92375493d5dd3.dir
+      size: 15358979
+      nfiles: 325
+    - path: data/hot_dog
+      md5: ad1c46cca58198c4b12108cccebd522f.dir
+      size: 15892795
+      nfiles: 325
+    - path: data/huevos_rancheros
+      md5: d60f6888aa2bb90fbe6cef659acc5f4f.dir
+      size: 17093779
+      nfiles: 325
+    - path: data/hummus
+      md5: 6e749765d1b493d10b542b70fe113d8b.dir
+      size: 16056311
+      nfiles: 325
+    - path: data/ice_cream
+      md5: 47b52d6c1433e5c529528acd87c6fe56.dir
+      size: 15661729
+      nfiles: 325
+    - path: data/lasagna
+      md5: cf79fb0b511ce2f4876b06bc8bb716d1.dir
+      size: 16989157
+      nfiles: 325
+    - path: data/lobster_bisque
+      md5: c8710d136b0a23b21d2ef88efbc25baf.dir
+      size: 12903970
+      nfiles: 325
+    - path: data/lobster_roll_sandwich
+      md5: bc66924213c4556915f5a12a4b9a869e.dir
+      size: 17473648
+      nfiles: 325
+    - path: data/macaroni_and_cheese
+      md5: 6624113885f005346a96e17137bcb567.dir
+      size: 15561642
+      nfiles: 325
+    - path: data/macarons
+      md5: d704f4806dda50abe864837c1e292d81.dir
+      size: 15761573
+      nfiles: 325
+    - path: data/miso_soup
+      md5: 68bcd2b3be12d6e92db09c757e672407.dir
+      size: 13214838
+      nfiles: 325
+    - path: data/mussels
+      md5: 81f07f5d69d2bf9c42498c05e6f4a9e1.dir
+      size: 17711405
+      nfiles: 325
+    - path: data/nachos
+      md5: 67d15724c5eedd5a0550c5ad1df45078.dir
+      size: 17643042
+      nfiles: 325
+    - path: data/omelette
+      md5: e5123d8c291ca5e4e5113703f52b7b03.dir
+      size: 16647228
+      nfiles: 325
+    - path: data/onion_rings
+      md5: 191ec0e3f97f6d625b2b1f9dae9c7620.dir
+      size: 16145249
+      nfiles: 325
+    - path: data/oysters
+      md5: e19ad3ff242e54c8be166680dc7851fc.dir
+      size: 17830029
+      nfiles: 325
+    - path: data/pad_thai
+      md5: 893f546adc47a5afa1e8728454f9c8c3.dir
+      size: 18224256
+      nfiles: 325
+    - path: data/paella
+      md5: a4b1a291762188a956550f20d6f18490.dir
+      size: 18995605
+      nfiles: 325
+    - path: data/pancakes
+      md5: ec8e2d51753a5bde8daf2ab0e2267f2a.dir
+      size: 16895286
+      nfiles: 325
+    - path: data/panna_cotta
+      md5: eff4f248626733c1c98da39b3fb42e32.dir
+      size: 14062343
+      nfiles: 325
+    - path: data/peking_duck
+      md5: 895d9cf27bb25e868f1bcf719dbf3687.dir
+      size: 16706179
+      nfiles: 325
+    - path: data/pho
+      md5: e296b37f3f02ec335f24b40767e4ae5a.dir
+      size: 17089466
+      nfiles: 325
+    - path: data/pizza
+      md5: 2874dce9dbf975ec94c99fb35c9c5e45.dir
+      size: 19750341
+      nfiles: 325
+    - path: data/pork_chop
+      md5: fcc2cb445f9c4c18a45e74786e0d3c72.dir
+      size: 16915023
+      nfiles: 325
+    - path: data/poutine
+      md5: 2215b050fab6d3635395edb50354fd48.dir
+      size: 17309538
+      nfiles: 325
+    - path: data/prime_rib
+      md5: 05b01b9b60439d8a5b6e627d18e63442.dir
+      size: 17086895
+      nfiles: 325
+    - path: data/pulled_pork_sandwich
+      md5: 003fe1097b308274ac66d913dd9e193d.dir
+      size: 17098752
+      nfiles: 325
+    - path: data/ramen
+      md5: d021f13e45dc72d6dce5037befe53470.dir
+      size: 17215975
+      nfiles: 325
+    - path: data/ravioli
+      md5: 884d3ddeb3f97b0c9f30220a65f67a6a.dir
+      size: 15656080
+      nfiles: 325
+    - path: data/red_velvet_cake
+      md5: 06f8d75dd8e446564b70e8c5f6dacf83.dir
+      size: 16083471
+      nfiles: 325
+    - path: data/risotto
+      md5: e0015beb8aaca4c94fde5bfb163580bc.dir
+      size: 15196470
+      nfiles: 325
+    - path: data/samosa
+      md5: 9eb20bed0b38a92da88a20c7a50d4fb1.dir
+      size: 15304886
+      nfiles: 325
+    - path: data/sashimi
+      md5: 6b56a609c86e66b3fa32f51a28110dc4.dir
+      size: 16213751
+      nfiles: 325
+    - path: data/scallops
+      md5: b60565aa5cc271869a44bccc1788773c.dir
+      size: 15209397
+      nfiles: 325
+    - path: data/seaweed_salad
+      md5: 640d77f790682c0eb5623b215384101e.dir
+      size: 17495379
+      nfiles: 325
+    - path: data/shrimp_and_grits
+      md5: cdb3c3702a05d8ed01577b0d0068658f.dir
+      size: 16054782
+      nfiles: 325
+    - path: data/spaghetti_bolognese
+      md5: a79b17bf0353adc89a0b425220af7e8e.dir
+      size: 18296606
+      nfiles: 325
+    - path: data/spaghetti_carbonara
+      md5: b40d390c389c6f6de28fb31f69d16ff0.dir
+      size: 16145541
+      nfiles: 325
+    - path: data/spring_rolls
+      md5: 997d6a5bbdeef0a8bd10aa7bfde46df9.dir
+      size: 14592438
+      nfiles: 325
+    - path: data/steak
+      md5: 35b0fca65e1b28695f517076d61a0b6f.dir
+      size: 17148571
+      nfiles: 325
+    - path: data/strawberry_shortcake
+      md5: 63afd0c9490009eea29585b4beacc73a.dir
+      size: 14896335
+      nfiles: 325
+    - path: data/sushi
+      md5: 85f34f2efec742583b54ce40a81efb42.dir
+      size: 16163174
+      nfiles: 325
+    - path: data/tacos
+      md5: e62494f2d51169aa372a83af32ec6544.dir
+      size: 17522443
+      nfiles: 325
+    - path: data/takoyaki
+      md5: 2beba0fedfb4e7c6440afc4d62747637.dir
+      size: 18614304
+      nfiles: 325
+    - path: data/tiramisu
+      md5: 83210f3885da90dca42d5979c2bab550.dir
+      size: 16411233
+      nfiles: 325
+    - path: data/tuna_tartare
+      md5: 9fc23d7005a715878ac2208389208f92.dir
+      size: 15014492
+      nfiles: 325
+    - path: data/waffles
+      md5: 8fd0d78c8fb2ad791b166c7432e0bd14.dir
+      size: 16838062
+      nfiles: 325

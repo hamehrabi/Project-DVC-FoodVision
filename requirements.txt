@@ -1,10 +1,12 @@
 ### dependency
+black
+dvc==2.45.1
 tqdm
-dvc
-pandas
-numpy
-PyYAML
-Tensorflow==2.8.0
+tensorflow==2.8.0
+joblib
+
+Pillow
+scipy
 
 ### local packages -
-# -e . # << uncomment this to install from setup.py
+-e . # << uncomment this to install from setup.py
