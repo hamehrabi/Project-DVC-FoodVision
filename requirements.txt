@@ -2,7 +2,8 @@
 black
 dvc==2.45.1
 tqdm
-tensorflow==2.8.0
+#tensorflow==2.8.0  #or CPU only support: https://www.tensorflow.org/install/pip#package-location
+https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow_cpu-2.11.0-cp38-cp38-win_amd64.whl
 joblib
 
 Pillow
