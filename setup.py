@@ -19,7 +19,7 @@ LIST_OF_REQUIREMENTS = ["black",
 
 setup(
     name=SRC_REPO,
-    version="0.0.2",
+    version="0.0.3",
     author=AUTHOR_USER_NAME,
     description="A small package for DVC",
     long_description=long_description,
