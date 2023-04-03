@@ -1,4 +1,4 @@
-# Project: Cats or Dogs using CNN with VGG16&EfficientnetB1 + DVC
+# Project: An End to end FoodVision101 using CNN with VGG16&EfficientnetB1 + DVC
 ## ✨ Project information:
 An end-to-end CNN Image Classification Model was developed using Transfer Learning to identify food items in images. The popular EfficientnetB1 model, which had been pretrained on the large Food101 dataset, was employed and retrained for the project's purposes. Remarkably, the [DeepFood](https://arxiv.org/abs/1606.05675) Paper's model, which had an accuracy of 77.4% and was also trained on Food101, was outperformed by the Model developed in this project. The project uses DVC (data version control) for managing data. It is built on a microservices architecture and is an end-to-end project. The dataset can be downloaded from this [link](https://drive.google.com/file/d/1-KYL8N8oQ8HkaqSp4pYlKlsU1urQb8wt/view?usp=share_link).
 
