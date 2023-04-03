@@ -24,7 +24,16 @@ Colab allocates a random GPU everytime we factory reset runtime. So you can rese
 
 > In case using local hardware, use a GPU with rating 7.0+ for better results.
 
-
+## 📚 **Libraries used** :
+* Tensorflow
+* tfds
+* Keras
+* pandas
+* numpy
+* seaborn
+* os
+* DVC
+* 
 ## **Preprocessing the Data**
 
 Since we've downloaded the data from TensorFlow Datasets, there are a couple of preprocessing steps we have to take before it's ready to model. 
@@ -68,15 +77,7 @@ As we are dealing with a complex Neural Network (EfficientNetB0) its a good prac
 
 ![image](https://user-images.githubusercontent.com/61462986/202082253-0d28ea8e-72af-4182-bf79-33b4119f27ef.png)
 
-## 📚 Libraries used :
-* Tensorflow
-* tfds
-* Keras
-* pandas
-* numpy
-* seaborn
-* os
-* DVC
+
 
 ## 🚀 Project structure (MLOps-DVC):
 <img src="https://user-images.githubusercontent.com/62473531/229567697-a85f4b6e-80e6-48ef-8220-c4ef320ef395.png" alt="workflow" width="70%">
