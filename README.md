@@ -83,12 +83,25 @@ As we are dealing with a complex Neural Network (EfficientNetB0) its a good prac
 <img src="https://user-images.githubusercontent.com/62473531/229567697-a85f4b6e-80e6-48ef-8220-c4ef320ef395.png" alt="workflow" width="70%">
 <img src="https://user-images.githubusercontent.com/62473531/229579230-f671e5ee-2206-4816-af0a-40226b89d36b.JPG" alt="workflow" width="70%">
 
-### 🔥 Technologies Used:
+
+## 🐨 DagsHub Data Pipeline
+<img src="https://user-images.githubusercontent.com/62473531/229726825-e4434cfb-2a4d-4967-9afb-b42062cec6b0.JPG" alt="workflow" width="70%">
+
+Complete Project Data Pipeline is available at [DagsHub Data Pipeline](https://dagshub.com/hamehrabi/Project-DVC-FoodVision)
+
+## 🔥 Technologies Used:
 ``` 
 1. Python 
 2. shell scripting 
 3. aws cloud Provider 
 4. DVC
+```
+
+## 🔌 Infrastructure:
+```
+1. AWS S3
+2. GitHub
+3. DaghsHub
 ```
 
 ## 👷 Initial Setup: 
